@@ -1,0 +1,14 @@
+<?php
+require_once "globalmessage_class.php";
+
+class Message extends GlobalMessege {
+	
+	private $data;
+	
+	public function __construct() {
+		parent::__construct("messages");
+	}
+	
+}
+
+?>
